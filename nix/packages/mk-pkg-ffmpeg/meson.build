@@ -100,9 +100,12 @@ audio_default_options = [
     '--enable-decoder=pcm*',
     '--enable-decoder=dsd*',
     '--enable-decoder=dca', # required by dts
+    '--enable-decoder=truehd',
+    '--enable-decoder=mlp',
 
-    # parsers   
+    # parsers
     '--enable-parser=aac*',
+    '--enable-parser=mlp',
     '--enable-parser=ac3',
     '--enable-parser=cook',
     '--enable-parser=dca',
